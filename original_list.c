@@ -28,7 +28,7 @@ int main(void)
     node *list = createList(size);
     printList(list);
 
-    // Asking user if they want to append a number to the list
+    // Asks user if they want to append a number to the list
     char append_a_number;
     printf("Do you want to append a number? (Y/N): ");
     scanf(" %c", &append_a_number);
