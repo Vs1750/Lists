@@ -1,7 +1,7 @@
 # Lists
 Linked lists in C that behave like Python's lists, without having the need to recreate one on your own.
 
-This repository consists of the library "list.h", the source file "list.c", a separate program that uses the library "test.c", and a file that I originally wrote my code in "original_list.c".
+This repository consists of the library "list.h", the source file "list.c", a separate program that uses the library "test.c", and the file that I originally wrote my code in "original_list.c".
 
 A description of each of the function:
 1. node *createList(int size)
