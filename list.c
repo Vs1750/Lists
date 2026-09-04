@@ -4,6 +4,7 @@
 
 #include "list.h"
 
+// Type this into the terminal
 // gcc -c list.c -o list.o
 // ar rcs liblist.a list.o
 // gcc <file.c> -L. -llist -o <file>
