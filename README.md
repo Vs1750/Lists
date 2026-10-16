@@ -26,7 +26,7 @@
    ar rcs liblist.a list.o
 
 2. When you have edited the file to be ran
-   gcc <file.c> -L. -llist -o <file>
+   gcc file.c -L. -llist -o file
 
 3. If the library and header live in a different folder than your program, point gcc to them
-   gcc <file.c> -I/path/to/header -L/path/to/lib -llist -o <file>
+   gcc file.c -I/path/to/header -L/path/to/lib -llist -o file
