@@ -1,13 +1,10 @@
+// Read README.txt before executing the code
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
 
 #include "list.h"
-
-// Type this into the terminal everytime you want to re-compile whether it is list.c or <file.c>
-// gcc -c list.c -o list.o
-// ar rcs liblist.a list.o
-// gcc <file.c> -L. -llist -o <file>
 
 node *createList(int size)
 {
